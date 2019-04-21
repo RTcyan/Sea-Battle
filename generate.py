@@ -41,12 +41,8 @@ def generate():
     for i in range(4,0,-1):
         for j in range(5-i):
             a=generate_k(a,i)
-    print_a(a)
-    k=0
-    for i in range(len(a)):
-        for j in range(len(a[i])):
-            k+=a[i][j]
-    print(k)
-
-generate()
-
+    # k=0
+    # for i in range(len(a)):
+    #     for j in range(len(a[i])):
+    #         k+=a[i][j]
+    return a;
